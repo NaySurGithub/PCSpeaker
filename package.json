@@ -1,0 +1,16 @@
+{
+  "name": "pcspeak-backend",
+  "version": "1.0.0",
+  "description": "PC Audio Streaming Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "uuid": "^10.0.0",
+    "winston": "^3.14.0",
+    "ws": "^8.18.0"
+  }
+}
